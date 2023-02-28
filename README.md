@@ -1,6 +1,8 @@
 # NovaOS
 My personal respin of the Linux Mint operating system, where bloat has been removed and the UI cleaned up and given a new coat of paint using a custom [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
 
+Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for making the process of distributing ISO's easy.
+
 |   |   |
 |---|---|
 | ![alt](meta/desktop.png) | ![alt](meta/applet.png) |
