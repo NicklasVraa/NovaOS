@@ -4,25 +4,18 @@ It's based on Mint 20.3, but with the 5.15 kernel.
 
 Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for making the process of distributing ISO's easy.
 
-|   |   |
-|---|---|
-| ![alt](meta/desktop.png) | ![alt](meta/applet.png) |
-| ![alt](meta/files_settings.png) | ![alt](meta/os_apps.png) |
-| ![alt](meta/code_term.png) | ![alt](meta/obsidian.png) |
-| ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png) |
+|                                   |                           |
+|-----------------------------------|---------------------------|
+| ![alt](meta/desktop.png)          | ![alt](meta/applet.png)   |
+| ![alt](meta/files_settings.png)   | ![alt](meta/os_apps.png)  |
+| ![alt](meta/code_term.png)        | ![alt](meta/obsidian.png) |
+| ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png)     |
 
 ## Installation
 1. Download the [ISO](https://drive.google.com/drive/folders/1djzd2mm6oHLx1MuvaAjNLqDi0mUxStYA?usp=share_link).
-2. Create a bootable USB and select it during boot. \
-   This process depends on your hardware or current OS.
-3. In the live-session, start a terminal and run `sudo eggs install`. \
-   Password: `nova`, which will also be the root password.
+2. Create a bootable USB (e.g. using [Rufus](https://rufus.ie/en/)) and select the drive during boot. \
+   The process of selecting a different boot-device depends on your hardware.
+3. In the live-session, start a terminal and run `sudo eggs install`. Password: `nova`.
 4. Run through the guided installation.
 
-## Post-Install Suggestions
-Launch a terminal and run:
-- `sudo rm /etc/xdg/autostart/penguins-links-add.desktop` to remove the script that creates shortcuts on the desktop.
-- `rm Desktop/*` to remove the shortcuts on the desktop.
-- `sudo apt remove eggs` to remove penguins-eggs, if you don't plan on sharing your system.
-- `clean` to clean up caches.
-- `sudo apt update` to check for updates.
+Drop a star, if you got it working.
