@@ -1,4 +1,7 @@
 # NovaOS
+
+**Attention**: Current ISO not working on all systems. Will be fixed soon.
+
 My personal respin of the [Linux Mint](https://linuxmint.com) operating system, where "bloat" has been removed and the UI cleaned up and given a new coat of paint using my [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
 It's based on Mint 20.3, but with the 5.15 kernel.
 
