@@ -21,4 +21,3 @@ Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for
 3. In the live-session, start a terminal and run `sudo eggs install`. Password: `nova`.
 4. Run through the guided installation.
 
-Drop a star, if you got it working.
