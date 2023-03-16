@@ -9,6 +9,7 @@ My personal respin of the Linux Mint operating system, where bloat has been remo
 | ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png) |
 
 ## Installation
+![showcase](meta/showcase.JPG)
 1. Download the [ISO](https://drive.google.com/drive/folders/1djzd2mm6oHLx1MuvaAjNLqDi0mUxStYA?usp=share_link).
 2. Create a bootable USB and select it during boot. \
    This process depends on your hardware and OS.
@@ -17,5 +18,4 @@ My personal respin of the Linux Mint operating system, where bloat has been remo
 4. Run through the guided installation.
 
 ## Post-Install Suggestions
-- Uninstall penguins-eggs, if you don't plan on sharing your system.
-- Use the built-in updater or the terminal to update the system.
+- Use the built-in updater or the terminal to update the system using `sudo apt update`
