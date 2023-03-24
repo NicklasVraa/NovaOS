@@ -24,3 +24,6 @@ Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for
 
 ## Post-Install Suggestions
 - Use the built-in updater or the terminal to update the system, which will also prompt you to remove packages, that are no longer needed.
+
+---
+**LEGAL NOTICE**: This repository, including any and all of its forks and derivatives, may NOT be used in the development or training of any machine learning model of any kind, without the explicit permission of the owner of the original repository.
