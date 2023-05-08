@@ -1,5 +1,5 @@
 # NovaOS
-
+**Attention**: Had to remove ISO, because I need the space in Google Drive for Colab. Will update and reupload in the future.
 **Attention**: ISO fixed. If you cannot login, username:`user` and password:`nova` works.
 
 My personal respin of the [Linux Mint](https://linuxmint.com) operating system, where "bloat" has been removed and the UI cleaned up and given a new coat of paint using my [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
