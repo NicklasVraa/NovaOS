@@ -1,9 +1,7 @@
 # NovaOS
-**Attention**: Reuploaded an updated [ISO](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing), but have not had a chance to test it. If prompted for username or password, type `nova`.
+Download the [ISO](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing) (31-5-2023 build). Tested on VirtualBox.
 
-This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
-
-It's based on Mint 20.3, but with the newer 5.15 kernel.
+This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. It's based on Mint 20.3, but with the newer 5.15 kernel. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
 
 Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for making the process of building ISO's a little bit easier.
 
@@ -23,9 +21,14 @@ Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for
 4. Run through the guided installation.
 
 ## Post-Install Suggestions
-- Use the built-in updater or the terminal to update the system, which will also prompt you to remove packages, that are no longer needed.
-
+- Use the built-in update-manager or the terminal to update the system, which will also prompt you to remove packages, that are no longer needed. If the update-manager claims that apt is broken, simply refresh.
 - Add additional [wallpapers](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing).
+
+## Roadmap
+- [ ] Post-install TUI for downloading and configuring recommended optional apps and explaining the UI.
+- [ ] Global theme- and icon color changer, by editing svg- and css color code.
+- [ ] Additional wallpapers.
+- [ ] Color-matched Calamares installer.
 
 ---
 **LEGAL NOTICE**: This repository, including any and all of its forks and derivatives, may NOT be used in the development or training of any machine learning model of any kind, without the explicit permission of the owner of the original repository.
