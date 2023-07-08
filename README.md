@@ -19,6 +19,7 @@ This is a remake of [Linux Mint](https://linuxmint.com). The intention with this
 ## Post-Install
 - If startup is slow, simply run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
 - If Windows won't let you boot into Linux after installation, install and run `boot-repair` from within a terminal in the live session.
+- Look for missing drivers using the driver-manager.
 - Update the system using the update-manager. Start by refreshing.
 - Add additional [wallpapers](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing).
 
