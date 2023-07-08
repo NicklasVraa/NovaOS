@@ -3,8 +3,6 @@ Download the [ISO](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yO
 
 This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. It's based on Mint 20.3, but with the newer 5.15 kernel. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
 
-Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for making the process of building ISO's a little bit easier.
-
 |                                   |                           |
 |-----------------------------------|---------------------------|
 | ![alt](meta/desktop.png)          | ![alt](meta/applet.png)   |
@@ -19,7 +17,7 @@ Thank you to [penguins-eggs](https://github.com/pieroproietti/penguins-eggs) for
 3. In the live-session, either use the graphical installer, or start a terminal and run `sudo eggs install`. Password: `nova`.
 
 ## Post-Install
-- If booting is slow, simply run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
+- If startup is slow, simply run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
 - If Windows won't let you boot into Linux after installation, install and run `boot-repair` from within a terminal in the live session.
 - Update the system using the update-manager. Start by refreshing.
 - Add additional [wallpapers](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing).
