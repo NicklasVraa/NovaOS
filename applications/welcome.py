@@ -1,7 +1,7 @@
 import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
-import subprocess
+import os, subprocess
 
 class NovaOS_welcome(Gtk.Window):
     def __init__(self):
@@ -31,17 +31,21 @@ class NovaOS_welcome(Gtk.Window):
         settings_button = Gtk.Button(label="Settings")
         settings_button.connect("clicked", self.on_settings_button_clicked)
         buttons.pack_start(settings_button, True, True, 0)
+        system_button = Gtk.Button(label="System")
+        system_button.connect("clicked", self.on_system_button_clicked)
+        buttons.pack_start(system_button, True, True, 0)
         welcome.pack_start(buttons, False, False, 0)
 
         # Setup Page.
         setup = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
         setup.set_border_width(12)
         pages.append_page(setup, Gtk.Label(label="Setup"))
-        desc = Gtk.Label(label="If your screen shows the OS logo for more than a couple of seconds after startup, update initramfs.")
+        desc = Gtk.Label(label="If your screen shows the OS logo for more than a couple of seconds after startup, press this.")
         desc.set_line_wrap(True)
         desc.set_alignment(0,0)
         setup.pack_start(desc, False, True, 0)
         bootfix_button = Gtk.Button(label="Fix slow boot")
+        bootfix_button.connect("clicked", self.on_bootfix_button_clicked)
         setup.pack_start(bootfix_button, False, False, 0)
         desc = Gtk.Label(label="Perform a full update of your system using the update-manager. Access from the main menu [☰].")
         desc.set_line_wrap(True)
@@ -73,6 +77,7 @@ class NovaOS_welcome(Gtk.Window):
         software.pack_start(checks, False, False, 0)
         software.pack_start(Gtk.Box(), True, True, 0) # Spacer
         install_button = Gtk.Button(label="Install")
+        install_button.connect("clicked", self.on_install_button_clicked)
         software.pack_start(install_button, False, False, 0)
 
         # Tips Page.
@@ -102,17 +107,30 @@ class NovaOS_welcome(Gtk.Window):
 
         self.add(pages)
 
+    # Welcome page buttons.
     def on_repo_button_clicked(self, widget):
         subprocess.run(["xdg-open", "https://github.com/NicklasVraa/NovaOS"])
 
     def on_settings_button_clicked(self, widget):
         subprocess.run(["cinnamon-settings"])
 
-    def on_git_button_clicked(self, widget):
-        subprocess.run(["xdg-open", "https://github.com/NicklasVraa"])
+    def on_system_button_clicked(self, widget):
+        os.system("terminator -e 'neofetch; exec bash' --geometry=600x340")
+
+    # Setup page buttons.
+    def on_bootfix_button_clicked(self, widget):
+        os.system("terminator -e 'sudo rm /etc/initramfs-tools/conf.d/resume && echo This may take a moment... && sudo update-initramfs -u; echo Success! You may close this window.; exec bash'")
 
     def on_update_button_clicked(self, widget):
         subprocess.run(["mintupdate"])
+
+    # Software page buttons.
+    def on_install_button_clicked(self, widget):
+        pass
+
+    # Credit page buttons.
+    def on_git_button_clicked(self, widget):
+        subprocess.run(["xdg-open", "https://github.com/NicklasVraa"])
 
 win = NovaOS_welcome()
 win.connect("destroy", Gtk.main_quit)
