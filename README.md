@@ -10,6 +10,8 @@ This is a remake of [Linux Mint](https://linuxmint.com). The intention with this
 | ![alt](meta/code_term.png)        | ![alt](meta/obsidian.png) |
 | ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png)     |
 
+Pre-installed software is kept to a minimum and has been appropriately themed and configured.
+
 ## Installation
 1. Download the [ISO](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing).
 2. Create a bootable USB (e.g. using [Rufus](https://rufus.ie/en/)) and select the drive during boot. \
