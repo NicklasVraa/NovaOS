@@ -1,0 +1,11 @@
+name: "Nord dark mono"
+comment: "Muted, dark and monochromatic."
+colors: # Dark to light
+  - "#4f4f4f"
+  - "#3d4555"
+  - "#4c566a"
+  - "#5f697d"
+  - "#737d91"
+  - "#cddff0"
+  - "#afafb1"
+  - "#ffffff"
