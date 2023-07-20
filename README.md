@@ -26,9 +26,9 @@ Pre-installed software is kept to a minimum and has been appropriately themed an
 - Add additional [wallpapers](https://drive.google.com/drive/folders/1PxN_xtd-8F6M6SU2Ia1yOs4M1Mpy6arj?usp=sharing).
 
 ## Roadmap
-- [ ] Post-install TUI for downloading and configuring recommended optional apps and explaining the UI.
-- [ ] Global theme- and icon color changer, by editing svg- and css color code.
-- [ ] Additional wallpapers.
+- [ ] Post-install GUI for downloading and configuring recommended optional apps and explaining the UI.
+- [ ] Global theme- and icon color changer.
+- [ ] Custom Wallpaper generator.
 - [ ] Color-matched Calamares installer.
 
 ![showcase](meta/showcase.JPG)
