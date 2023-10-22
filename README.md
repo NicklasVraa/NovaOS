@@ -8,6 +8,7 @@ This is a remake of [Linux Mint](https://linuxmint.com). The intention with this
 | ![alt](meta/desktop.png)          | ![alt](meta/applet.png)   |
 | ![alt](meta/files_settings.png)   | ![alt](meta/os_apps.png)  |
 | ![alt](meta/code_term.png)        | ![alt](meta/obsidian.png) |
+| ![alt](meta/drawio.png)           | ![alt](meta/nano.png)     |
 | ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png)     |
 
 Pre-installed software is kept to a minimum and has been appropriately themed and configured.
