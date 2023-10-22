@@ -17,11 +17,11 @@ Pre-installed software is kept to a minimum and has been appropriately themed an
 ## Installation
 1. Download the [ISO](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing).
 2. Create a bootable USB (e.g. using [Rufus](https://rufus.ie/en/)) and select the drive during boot. \
-   The process of selecting a different boot-device depends on your hardware.
-3. In the live-session, either use the graphical installer, or start a terminal and run `sudo eggs install`. Password: `nova`.
+   The process of selecting a different boot-device depends on your hardware. You may need to disable secure-boot.
+3. In the live-session, double-click the install icon on the desktop. An internet connection allows for automatic localization, but is not required.
 
 ## Post-Install
-- If startup is slow, simply run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
+- If startup is slow, run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
 - If Windows won't let you boot into Linux after installation, install and run `boot-repair` from within a terminal in the live session.
 - Look for missing drivers using the driver-manager.
 - Update the system using the update-manager. Start by refreshing.
