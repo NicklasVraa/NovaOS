@@ -15,6 +15,8 @@ Pre-installed software is kept to a minimum and has been appropriately themed an
 - Installed: Firefox, VSCode, Terminator, Obsidian, Drawio, LibreOffice7.5
 - Recommended: TeXLive, Inkscape, GIMP, VirtualBox
 
+If wanted, I can provide a version without any added pre-installed software.
+
 ## Installation
 1. Download the [ISO](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing).
 2. Create a bootable USB (e.g. using [Rufus](https://rufus.ie/en/)) and select the drive during boot. \
