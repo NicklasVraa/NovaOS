@@ -1,6 +1,9 @@
 # NovaOS <img src="meta/logo.svg" width="28"/>
 Download the ISO (2023-10-21 build): [SourceForge](https://sourceforge.net/projects/novaos/files/) | [Google Drive](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing).
 
+sha256sum: `1edd39645757f69db1be7f3fa78b7e8c0d950fe94986dde33d2997b307783069`
+
+
 This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. It's based on Mint 20.3, but with the newer 5.15 kernel. It will receive the same updates as normal Linux Mint. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons), which were created using [Color_Manager](https://github.com/NicklasVraa/Color-manager). Additional [wallpapers](https://drive.google.com/drive/folders/1HjrJrt7eDFPl18DLkWYUCWC0cEZfyRGJ?usp=sharing) are available.
 
 |                                   |                           |
@@ -33,7 +36,7 @@ If wanted, I can provide a version without any added pre-installed software.
 - [x] Finish [Color_Manager](https://github.com/NicklasVraa/Color-manager).
 - [x] Add additional wallpapers to repository.
 - [x] Host ISO on SourceForge.
-- [ ] Generate and upload SHA256SUM for checking integrity of ISO.
+- [x] Generate SHA256SUM for checking integrity of ISO.
 - [ ] Integrate Welcome GUI into ISO.
 - [ ] Integrate Color_Manager into ISO.
 - [ ] Color-matched Calamares installer.
