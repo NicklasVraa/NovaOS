@@ -1,7 +1,7 @@
-# NovaOS
-Download the [ISO](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing) (2023-10-21 build). Confirmed to work in VirtualBox and on bare metal. Last updated 16/10/23.
+# NovaOS <img src="meta/logo.svg" width="28"/>
+Download the ISO (2023-10-21 build): [SourceForge](https://sourceforge.net/projects/novaos/files/) | [Google Drive](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing).
 
-This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. It's based on Mint 20.3, but with the newer 5.15 kernel. It will receive the same updates as normal Linux Mint. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons).
+This is a remake of [Linux Mint](https://linuxmint.com). The intention with this ISO is to provide a very minimal and optimized version of Mint with sensible defaults and a coherent experience and muted look-and-feel. It's based on Mint 20.3, but with the newer 5.15 kernel. It will receive the same updates as normal Linux Mint. Also check out the standalone [theme](https://github.com/NicklasVraa/Nova-galactic-theme) and [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons), which were created using [Color_Manager](https://github.com/NicklasVraa/Color-manager). Additional [wallpapers](https://drive.google.com/drive/folders/1HjrJrt7eDFPl18DLkWYUCWC0cEZfyRGJ?usp=sharing) are available.
 
 |                                   |                           |
 |-----------------------------------|---------------------------|
@@ -15,6 +15,8 @@ Pre-installed software is kept to a minimum and has been appropriately themed an
 - Installed: Firefox, VSCode, Terminator, Obsidian, Drawio, LibreOffice7.5
 - Recommended: TeXLive, Inkscape, GIMP, VirtualBox
 
+If wanted, I can provide a version without any added pre-installed software.
+
 ## Installation
 1. Download the [ISO](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing).
 2. Create a bootable USB (e.g. using [Rufus](https://rufus.ie/en/)) and select the drive during boot. \
@@ -24,14 +26,16 @@ Pre-installed software is kept to a minimum and has been appropriately themed an
 ## Post-Install
 - If startup is slow, run `sudo rm /etc/initramfs-tools/conf.d/resume && sudo update-initramfs -u` in a terminal. This may take a second to complete.
 - If Windows won't let you boot into Linux after installation, install and run `boot-repair` from within a terminal in the live session.
-- Look for missing drivers using the driver-manager.
-- Update the system using the update-manager. Start by refreshing.
-- Add additional [wallpapers](https://drive.google.com/drive/folders/1HjrJrt7eDFPl18DLkWYUCWC0cEZfyRGJ?usp=sharing).
+- Look for missing drivers using the driver-manager, and update the system using the update-manager. Start by refreshing.
 
 ## Roadmap
-- [ ] Post-install GUI for downloading and configuring recommended optional apps and explaining the UI.
-- [ ] Global theme- and icon color changer.
-- [ ] Custom Wallpaper generator.
+- [x] Finish Welcome GUI.
+- [x] Finish [Color_Manager](https://github.com/NicklasVraa/Color-manager).
+- [x] Add additional wallpapers to repository.
+- [x] Host ISO on SourceForge.
+- [ ] Generate and upload SHA256SUM for checking integrity of ISO.
+- [ ] Integrate Welcome GUI into ISO.
+- [ ] Integrate Color_Manager into ISO.
 - [ ] Color-matched Calamares installer.
 
 ![showcase](meta/showcase.JPG)
