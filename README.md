@@ -1,5 +1,6 @@
 # NovaOS <img src="meta/logo.svg" width="28"/>
-Download the ISO (2023-11-26 build): [SourceForge](https://sourceforge.net/projects/novaos/files/) (recommended)| [Google Drive](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing) (backup)
+Download the ISO (2023-11-26 build): \
+[SourceForge](https://sourceforge.net/projects/novaos/files/) (recommended) | [Google Drive](https://drive.google.com/drive/folders/1f0jR0VEez13FHDwOYfysAfKcvFQYKSCm?usp=sharing) (backup)
 
 sha256sum: `f89413450f0119c25b9d97b43bb3b191a871f5f324c4c11eaa8bd674dbc6d09e`
 
