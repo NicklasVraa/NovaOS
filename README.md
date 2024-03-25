@@ -16,7 +16,7 @@ This is a remake of [Linux Mint](https://linuxmint.com). The intention with this
 | ![alt](meta/browser_inkscape.png) | ![alt](meta/lock.png)     |
 
 Pre-installed software is kept to a minimum and has been appropriately themed and configured.
-- Installed: Firefox, VSCode, Terminator, Obsidian, Drawio, LibreOffice7.5, Rhythmbox
+- Installed: Firefox, VSCode, Terminator, Obsidian, Drawio, LibreOffice, Rhythmbox
 - Recommended: TeXLive, Inkscape, GIMP, VirtualBox, Shotwell
 
 If wanted, I can provide a version without any added pre-installed software.
